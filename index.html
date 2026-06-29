@@ -291,7 +291,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 
   </div>
   <div class="hdr-right">
-    
+    <button class="abt" id="abt" onclick="showAudit()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Caixa auditado
+    </button>
   </div>
 </header>
 
@@ -1203,7 +1206,7 @@ buildPeriodChips();
 upCtx(); render();
 document.addEventListener('DOMContentLoaded',()=>{setTimeout(()=>{document.getElementById('upd-bar').classList.add('vis');},800);});
 </script>
-<div id="lo" style="display:none;position:fixed;inset:0;background:rgba(11,22,34,.9);z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:14px"><div style="width:36px;height:36px;border:3px solid rgba(212,165,116,.2);border-top-color:#D4A574;border-radius:50%;animation:sp .7s linear infinite"></div><div style="color:#7498B4;font-size:13px">Carregando dados da planilha...</div></div>
+
 
 
 
